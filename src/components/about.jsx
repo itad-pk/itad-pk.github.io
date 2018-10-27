@@ -14,7 +14,7 @@ class About extends Component {
   state = {};
   render() {
     return (
-      <div className="pt-5 pb-5 pl-5 pr-5">
+      <div id="about" className="pt-5 pb-5 pl-5 pr-5">
         <div className="row">
           <div>
             <Carousel

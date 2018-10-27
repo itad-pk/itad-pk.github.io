@@ -14,6 +14,7 @@ import {
   Button
 } from "mdbreact";
 import { BrowserRouter as Router } from "react-router-dom";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 class Menu extends React.Component {
   constructor(props) {
@@ -53,17 +54,17 @@ class Menu extends React.Component {
                 )}
                 <Collapse isOpen={this.state.collapse} navbar>
                   <NavbarNav right>
-                    <NavItem active>
-                      <NavLink link="#">O KONFERENCJI</NavLink>
+                    <NavItem>
+                      <AnchorLink className="nav-link" href='#about'>O KONFERENCJI</AnchorLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink to="#">AGENDA</NavLink>
+                      <AnchorLink className="nav-link" href='#about'>AGENDA</AnchorLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink to="#">PRELEGENCI</NavLink>
+                      <AnchorLink className="nav-link" href='#speakers'>PRELEGENCI</AnchorLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink to="#">LOKALIZACJA</NavLink>
+                      <AnchorLink className="nav-link" href='#location'>LOKALIZACJA</AnchorLink>
                     </NavItem>
                     <NavItem>
                       <NavLink to="#">ITAD 2017</NavLink>
@@ -74,7 +75,7 @@ class Menu extends React.Component {
             </Container>
           </Router>
 
-          <div id="about" style={{ height: "100vh" }}>
+          <div style={{ height: "100vh" }}>
             <View className="random" src={require("../photos/background.jpg")}>
               <Mask
                 overlay="stylish-strong"

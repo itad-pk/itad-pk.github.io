@@ -5,13 +5,12 @@ import About from "./components/about";
 import Speakers from "./components/speakers";
 import Location from "./components/location";
 import MainLoader from "./components/mainLoader";
-import ReactDOM from "react-dom";
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isLoading: false
+      isLoading: true
     }
   }
 

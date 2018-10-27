@@ -5,7 +5,7 @@ class Speakers extends Component {
   state = {};
   render() {
     return (
-      <React.Fragment>
+      <div id="speakers">
         <h1 className="text-center">
           PRELEGENCI
         </h1>
@@ -47,7 +47,7 @@ class Speakers extends Component {
             />
           </View>
         </div>
-      </React.Fragment>
+      </div>
     );
   }
 }

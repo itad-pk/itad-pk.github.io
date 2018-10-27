@@ -5,7 +5,7 @@ class Location extends Component {
   state = {};
   render() {
     return (
-      <div>
+      <div id="location">
       <h1 className="text-center">
           LOKALIZACJA
       </h1>
