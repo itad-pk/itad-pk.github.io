@@ -54,7 +54,7 @@ class Menu extends React.Component {
                 <Collapse isOpen={this.state.collapse} navbar>
                   <NavbarNav right>
                     <NavItem active>
-                      <NavLink to="#">O KONFERENCJI</NavLink>
+                      <NavLink link="#">O KONFERENCJI</NavLink>
                     </NavItem>
                     <NavItem>
                       <NavLink to="#">AGENDA</NavLink>
@@ -74,7 +74,7 @@ class Menu extends React.Component {
             </Container>
           </Router>
 
-          <div style={{ height: "100vh" }}>
+          <div id="about" style={{ height: "100vh" }}>
             <View className="random" src={require("../photos/background.jpg")}>
               <Mask
                 overlay="stylish-strong"

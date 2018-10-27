@@ -2,7 +2,7 @@
   "name": "itad",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://grupadotnet.github.io/itad",
+  "homepage": "https://itad-pk.github.io",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "bootstrap-css-only": "^4.1.1",
