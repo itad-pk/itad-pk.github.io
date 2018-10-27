@@ -11,46 +11,39 @@ import {
 } from "mdbreact";
 
 class About extends Component {
-  state = {};
   render() {
     return (
-      <div id="about" className="pt-5 pb-5 pl-5 pr-5">
+      <div id="about" className="d-flex justify-content-center">
         <div className="row">
-          <div>
+          <div className="container-fluid">
             <Carousel
               activeItem={1}
               length={4}
               showControls={false}
               showIndicators={false}
               style={{ boxShadow: "3px 8px 10px" }}
+              className="mt-3"
             >
               <CarouselInner>
                 <CarouselItem itemId="1">
-                  <View>
                     <img
-                      height={70}
-                      className="d-block"
+                      className="d-block img-fluid"
                       src={require("../photos/itad_2017/horizontal/_MG_5279.jpg")}
                       alt="First slide"
                     />
                     <Mask overlay="black-light" />
-                  </View>
                 </CarouselItem>
                 <CarouselItem itemId="2">
-                  <View>
                     <img
-                      height={70}
-                      className="d-block"
+                      className="d-block img-fluid"
                       src={require("../photos/itad_2017/horizontal/_MG_5279.jpg")}
                       alt="Second slide"
                     />
-                  </View>
                 </CarouselItem>
                 <CarouselItem itemId="3">
                   <View>
                     <img
-                      height={70}
-                      className="d-block"
+                      className="d-block img-fluid"
                       src={require("../photos/itad_2017/horizontal/_MG_5279.jpg")}
                       alt="Third slide"
                     />
@@ -59,8 +52,7 @@ class About extends Component {
                 <CarouselItem itemId="4">
                   <View>
                     <img
-                      height={70}
-                      className="d-block"
+                      className="d-block img-fluid"
                       src={require("../photos/itad_2017/horizontal/_MG_5279.jpg")}
                       alt="Mattonit's item"
                     />
@@ -69,9 +61,9 @@ class About extends Component {
               </CarouselInner>
             </Carousel>
           </div>
-          <div className="col-sm-3">
+          <div>
             <Card
-              className="pl-3 pr-3 pt-3 pb-3"
+              className="pl-3 pr-3 pt-3 pb-3 m-3"
               style={{
                 backgroundColor: "#041635",
                 boxShadow: "3px 8px 10px"
@@ -90,11 +82,10 @@ class About extends Component {
               </CardText>
             </Card>
             <Card
-              className="pl-3 pr-3 pt-3 pb-3"
+              className="pl-3 pr-3 pt-3 pb-3 m-3"
               style={{
                 backgroundColor: "#041635",
                 boxShadow: "3px 8px 10px",
-                marginTop: "30%"
               }}
             >
               <CardTitle style={{ color: "white" }}>CEL KONFERENCJI</CardTitle>

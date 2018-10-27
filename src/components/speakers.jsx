@@ -9,40 +9,32 @@ class Speakers extends Component {
         <h1 className="text-center">
           PRELEGENCI
         </h1>
-        <div className="ml-5 mt-5">
+        <div className="m-3">
           <View zoom>
             <img
               alt="img"
-              className="pb-5"
-              width={350}
-              height={350}
+              className="img-fluid mb-3"
               src={require("../photos/itad_2017/horizontal/_MG_5318.jpg")}
             />
           </View>
           <View zoom>
             <img
               alt="img"
-              className="pb-5"
-              width={350}
-              height={350}
+              className="img-fluid mb-3"
               src={require("../photos/itad_2017/horizontal/_MG_5318.jpg")}
             />
           </View>
           <View zoom>
             <img
               alt="img"
-              className="pb-5"
-              width={350}
-              height={350}
+              className="img-fluid mb-3"
               src={require("../photos/itad_2017/horizontal/_MG_5318.jpg")}
             />
           </View>
           <View zoom>
             <img
               alt="img"
-              className="pb-5"
-              width={350}
-              height={350}
+              className="img-fluid mb-3"
               src={require("../photos/itad_2017/horizontal/_MG_5318.jpg")}
             />
           </View>
