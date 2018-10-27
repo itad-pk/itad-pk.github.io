@@ -8,17 +8,17 @@ export class MapContainer extends Component {
   }
   render() {
     return (
-      <Map
-        google={this.props.google}
-        zoom={18}
-        style={{ width: "700px", height: "500px", position: "relative" }}
-        initialCenter={{
-          lat: 50.072406,
-          lng: 19.942657
-        }}
-      >
-        <Marker onClick={this.onMarkerClick} name={"Kotlowania"} />
-      </Map>
+        <Map
+          google={this.props.google}
+          zoom={18}
+          style={{ width: "100%", height: "100%" }}
+          initialCenter={{
+            lat: 50.072406,
+            lng: 19.942657
+          }}
+        >
+          <Marker onClick={this.onMarkerClick} name={"Kotlowania"} />
+        </Map>
     );
   }
 }

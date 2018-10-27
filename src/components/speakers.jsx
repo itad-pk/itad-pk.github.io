@@ -6,7 +6,7 @@ class Speakers extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1 className="text-center" style={{ fontSize: "60px" }}>
+        <h1 className="text-center">
           PRELEGENCI
         </h1>
         <div className="ml-5 mt-5">

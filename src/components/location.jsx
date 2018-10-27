@@ -5,12 +5,12 @@ class Location extends Component {
   state = {};
   render() {
     return (
-      <React.Fragment>
-        <h1 className="text-center" style={{ fontSize: "60px" }}>
-          LOKACJA
-        </h1>
-        <MapContainer />
-      </React.Fragment>
+      <div>
+      <h1 className="text-center">
+          LOKALIZACJA
+      </h1>
+      <MapContainer />
+      </div>
     );
   }
 }

@@ -22,10 +22,9 @@ class Menu extends React.Component {
       collapse: false,
       isWideEnough: false
     };
-    this.onClick = this.onClick.bind(this);
   }
 
-  onClick() {
+  onClick = () => {
     this.setState({
       collapse: !this.state.collapse
     });
@@ -44,10 +43,10 @@ class Menu extends React.Component {
                 fixed="top"
                 scrolling
                 className="z-depth-0"
-                style={{ height: "100px" }}
+                style={{ height: "70" }}
               >
                 <NavbarBrand href="/">
-                  <img alt="img" height="80" src={require("../logo.png")} />
+                  <img alt="img" width={70} src={require("../logo.png")} />
                 </NavbarBrand>
                 {!this.state.isWideEnough && (
                   <NavbarToggler onClick={this.onClick} />
@@ -64,7 +63,7 @@ class Menu extends React.Component {
                       <NavLink to="#">PRELEGENCI</NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink to="#">LOKACJA</NavLink>
+                      <NavLink to="#">LOKALIZACJA</NavLink>
                     </NavItem>
                     <NavItem>
                       <NavLink to="#">ITAD 2017</NavLink>
@@ -82,8 +81,8 @@ class Menu extends React.Component {
                 style={{ flexDirection: "column" }}
                 className="flex-center text-white text-center"
               >
-                <h1>
-                  DZIEŃ IT POLITECHNIKI KRAKOWSKIEJ 2018
+                <h1 className="mt-5">
+                  DZIEŃ IT POLITECHNIKI KRAKOWSKIEJ
                   <br />
                   29 LISTOPADA 2018
                   <br />

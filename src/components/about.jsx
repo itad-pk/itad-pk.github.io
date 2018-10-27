@@ -16,7 +16,7 @@ class About extends Component {
     return (
       <div className="pt-5 pb-5 pl-5 pr-5">
         <div className="row">
-          <div className="col-sm-9">
+          <div>
             <Carousel
               activeItem={1}
               length={4}
@@ -28,7 +28,7 @@ class About extends Component {
                 <CarouselItem itemId="1">
                   <View>
                     <img
-                      height={700}
+                      height={70}
                       className="d-block"
                       src={require("../photos/itad_2017/horizontal/_MG_5279.jpg")}
                       alt="First slide"
@@ -39,7 +39,7 @@ class About extends Component {
                 <CarouselItem itemId="2">
                   <View>
                     <img
-                      height={700}
+                      height={70}
                       className="d-block"
                       src={require("../photos/itad_2017/horizontal/_MG_5279.jpg")}
                       alt="Second slide"
@@ -49,7 +49,7 @@ class About extends Component {
                 <CarouselItem itemId="3">
                   <View>
                     <img
-                      height={700}
+                      height={70}
                       className="d-block"
                       src={require("../photos/itad_2017/horizontal/_MG_5279.jpg")}
                       alt="Third slide"
@@ -59,7 +59,7 @@ class About extends Component {
                 <CarouselItem itemId="4">
                   <View>
                     <img
-                      height={700}
+                      height={70}
                       className="d-block"
                       src={require("../photos/itad_2017/horizontal/_MG_5279.jpg")}
                       alt="Mattonit's item"
@@ -93,7 +93,8 @@ class About extends Component {
               className="pl-3 pr-3 pt-3 pb-3"
               style={{
                 backgroundColor: "#041635",
-                boxShadow: "3px 8px 10px"
+                boxShadow: "3px 8px 10px",
+                marginTop: "30%"
               }}
             >
               <CardTitle style={{ color: "white" }}>CEL KONFERENCJI</CardTitle>
