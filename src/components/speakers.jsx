@@ -5,7 +5,7 @@ class Speakers extends Component {
   state = {};
   render() {
     return (
-      <div id="speakers">
+      <div style={{marginTop: '5%'}} id="speakers">
         <h1 className="text-center">
           PRELEGENCI
         </h1>
@@ -13,6 +13,7 @@ class Speakers extends Component {
           <View zoom>
             <img
               alt="img"
+              width={400}
               className="img-fluid mb-3"
               src={require("../photos/itad_2017/horizontal/_MG_5318.jpg")}
             />
@@ -20,6 +21,7 @@ class Speakers extends Component {
           <View zoom>
             <img
               alt="img"
+              width={400}
               className="img-fluid mb-3"
               src={require("../photos/itad_2017/horizontal/_MG_5318.jpg")}
             />
@@ -27,6 +29,7 @@ class Speakers extends Component {
           <View zoom>
             <img
               alt="img"
+              width={400}
               className="img-fluid mb-3"
               src={require("../photos/itad_2017/horizontal/_MG_5318.jpg")}
             />
@@ -34,6 +37,7 @@ class Speakers extends Component {
           <View zoom>
             <img
               alt="img"
+              width={400}
               className="img-fluid mb-3"
               src={require("../photos/itad_2017/horizontal/_MG_5318.jpg")}
             />

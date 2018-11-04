@@ -15,7 +15,6 @@ import {
 } from "mdbreact";
 import { BrowserRouter as Router } from "react-router-dom";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import $ from 'jquery';
 
 class Menu extends React.Component {
   constructor(props) {
@@ -103,16 +102,6 @@ class Menu extends React.Component {
         </header>
       </div>
     );
-  }
-
-  componentWillMount() {
-    const that = this;
-    $(document).on('click','.navbar-collapse',function(e) {
-      that.onClick();
-    });
-    $(document).on('click','body',function(e) {
-      that.onClick();
-    });
   }
 }
 

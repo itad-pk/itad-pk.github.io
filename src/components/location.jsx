@@ -5,11 +5,16 @@ class Location extends Component {
   state = {};
   render() {
     return (
-      <div id="location">
-      <h1 className="text-center">
+      <div
+        id="location"
+        style={{
+          marginTop: '5%'
+        }}
+      >
+        <h1 className="text-center">
           LOKALIZACJA
       </h1>
-      <MapContainer />
+        <MapContainer />
       </div>
     );
   }

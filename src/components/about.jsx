@@ -61,43 +61,47 @@ class About extends Component {
               </CarouselInner>
             </Carousel>
           </div>
-          <div>
-            <Card
-              className="pl-3 pr-3 pt-3 pb-3 m-3"
-              style={{
-                backgroundColor: "#041635",
-                boxShadow: "3px 8px 10px"
-              }}
-            >
-              <CardTitle style={{ color: "white" }}>O KONFERENCJI</CardTitle>
-              <CardText style={{ color: "white" }}>
-                Dzień IT Politechniki Krakowskiej to już kolejna, dziewiąta
-                edycja konferencji o szeroko pojętej tematyce technologicznej.
-                Podczas konferencji zaproszeni prelegenci przedstawią najnowsze
-                trendy w branży IT. Ponadto zainteresowani studenci będą mogli
-                poznać profile potencjalnych pracodawców, a także wziąć udział w
-                konkursach z atrakcyjnymi nagrodami. Konferencja jest
-                organizowana pod honorowym patronatem Prorektora dr hab. Inż.
-                Marka Stanuszka.
-              </CardText>
-            </Card>
-            <Card
-              className="pl-3 pr-3 pt-3 pb-3 m-3"
-              style={{
-                backgroundColor: "#041635",
-                boxShadow: "3px 8px 10px",
-              }}
-            >
-              <CardTitle style={{ color: "white" }}>CEL KONFERENCJI</CardTitle>
-              <CardText style={{ color: "white" }}>
-                Dzień IT Politechniki Krakowskiej ukierunkowany jest na
-                studentów kierunków informatycznych i skupia się na tematyce
-                technologii i programowania. Jako cel Grupa .NET Politechniki
-                Krakowskiej stawia sobie przekazanie wartościowej i praktycznej
-                wiedzy z branży IT. Konferencja jest także szansą nawiązania
-                relacji z firmami z branży technologicznej.
-              </CardText>
-            </Card>
+          <div className="row m-3">
+              <div className="col-sm-6 d-flex">
+                <Card
+                  className="p-3"
+                  style={{
+                    backgroundColor: "#161C27",
+                    boxShadow: "3px 8px 10px"
+                  }}
+                >
+                  <CardTitle style={{ color: "white" }}>O KONFERENCJI</CardTitle>
+                  <CardText style={{ color: "white" }}>
+                    Dzień IT Politechniki Krakowskiej to już kolejna, dziewiąta
+                    edycja konferencji o szeroko pojętej tematyce technologicznej.
+                    Podczas konferencji zaproszeni prelegenci przedstawią najnowsze
+                    trendy w branży IT. Ponadto zainteresowani studenci będą mogli
+                    poznać profile potencjalnych pracodawców, a także wziąć udział w
+                    konkursach z atrakcyjnymi nagrodami. Konferencja jest
+                    organizowana pod honorowym patronatem Prorektora dr hab. Inż.
+                    Marka Stanuszka.
+                  </CardText>
+                </Card>
+              </div>
+              <div className="col-sm-6 d-flex">
+                <Card
+                className="p-3"
+                  style={{
+                    backgroundColor: "#161C27",
+                    boxShadow: "3px 8px 10px",
+                  }}
+                >
+                  <CardTitle style={{ color: "white" }}>CEL KONFERENCJI</CardTitle>
+                  <CardText style={{ color: "white" }}>
+                    Dzień IT Politechniki Krakowskiej ukierunkowany jest na
+                    studentów kierunków informatycznych i skupia się na tematyce
+                    technologii i programowania. Jako cel Grupa .NET Politechniki
+                    Krakowskiej stawia sobie przekazanie wartościowej i praktycznej
+                    wiedzy z branży IT. Konferencja jest także szansą nawiązania
+                    relacji z firmami z branży technologicznej.
+                  </CardText>
+                </Card>
+              </div>
           </div>
         </div>
       </div>
