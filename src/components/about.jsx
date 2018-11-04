@@ -66,7 +66,7 @@ class About extends Component {
                 <Card
                   className="p-3"
                   style={{
-                    backgroundColor: "#161C27",
+                    backgroundColor: "#1C2331",
                     boxShadow: "3px 8px 10px"
                   }}
                 >
@@ -87,7 +87,7 @@ class About extends Component {
                 <Card
                 className="p-3"
                   style={{
-                    backgroundColor: "#161C27",
+                    backgroundColor: "#1C2331",
                     boxShadow: "3px 8px 10px",
                   }}
                 >
