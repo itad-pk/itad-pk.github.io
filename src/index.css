@@ -23,6 +23,10 @@ code {
 }
 
 @media only screen and (max-width: 768px) {
+  .h-adjust {
+    font-size: 170%;
+  }
+
   .navbar {
     background-color: #161C27;
   }

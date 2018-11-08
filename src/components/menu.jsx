@@ -82,18 +82,18 @@ class Menu extends React.Component {
                 style={{ flexDirection: "column" }}
                 className="flex-center text-white text-center"
               >
-                <h1 className="mt-5">
+                <h1 className="mt-5 h-adjust">
                   DZIEŃ IT POLITECHNIKI KRAKOWSKIEJ
                   <br />
-                  29 LISTOPADA 2018
+                  4 GRUDNIA 2018
                   <br />
                   SALA KONFERENCYJNO-WYSTAWOWA "KOTŁOWNIA"
                   <br />
                   UL. WARSZAWSKA 24 KRAKÓW
                 </h1>
-                <Animation type="pulse slow" infinite>
+                <Animation className="mt-4" type="pulse slow" infinite>
                   <Button size="lg" color="warning">
-                    Zarejestruj sie
+                    Zarejestruj się
                   </Button>
                 </Animation>
               </Mask>

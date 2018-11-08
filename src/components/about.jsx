@@ -64,7 +64,7 @@ class About extends Component {
           <div className="row m-3">
               <div className="col-sm-6 d-flex">
                 <Card
-                  className="p-3"
+                  className="p-3 mb-3"
                   style={{
                     backgroundColor: "#1C2331",
                     boxShadow: "3px 8px 10px"
@@ -85,7 +85,7 @@ class About extends Component {
               </div>
               <div className="col-sm-6 d-flex">
                 <Card
-                className="p-3"
+                className="p-3 mb-3"
                   style={{
                     backgroundColor: "#1C2331",
                     boxShadow: "3px 8px 10px",
