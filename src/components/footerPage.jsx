@@ -9,7 +9,7 @@ class FooterPage extends React.Component {
           <Row>
             <Col md="6">
               <i className="fa fa-facebook fa-3x" />
-              <a href="https://www.facebook.com/dzienitpk/">   Odwiedź nas na Facebook'u.</a>
+              <a href="https://www.facebook.com/dzienitpk/">  Odwiedź nas na Facebook'u.</a>
             </Col>
             <Col md="6">
               <i className="fa fa-mobile fa-3x" />
