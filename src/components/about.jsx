@@ -21,7 +21,6 @@ class About extends Component {
               length={4}
               showControls={false}
               showIndicators={false}
-              style={{ boxShadow: "3px 8px 10px" }}
               className="mt-3"
             >
               <CarouselInner>
@@ -75,8 +74,7 @@ class About extends Component {
                 <Card
                   className="p-3 mb-3"
                   style={{
-                    backgroundColor: "#1C2331",
-                    boxShadow: "3px 8px 10px"
+                    backgroundColor: "#1C2331"
                   }}
                 >
                   <CardTitle style={{ color: "white" }}>O KONFERENCJI</CardTitle>
@@ -96,8 +94,7 @@ class About extends Component {
                 <Card
                 className="p-3 mb-3"
                   style={{
-                    backgroundColor: "#1C2331",
-                    boxShadow: "3px 8px 10px",
+                    backgroundColor: "#1C2331"
                   }}
                 >
                   <CardTitle style={{ color: "white" }}>CEL KONFERENCJI</CardTitle>
