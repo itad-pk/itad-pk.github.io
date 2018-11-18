@@ -4,16 +4,22 @@ import { Col, Container, Row, Footer } from "mdbreact";
 class FooterPage extends React.Component {
   render() {
     return (
-      <Footer color="unique-color-dark" className="font-small pt-4 mt-4">
-        <Container fluid md="6" className="text-center">
+      <Footer color="unique-color-dark" className="font-small">
+        <Container fluid md="6" className="pt-3">
           <Row>
             <Col md="6">
               <i className="fa fa-facebook fa-3x" />
-              <a href="https://www.facebook.com/dzienitpk/">  Odwiedź nas na Facebook'u.</a>
+              <a href="https://www.facebook.com/dzienitpk/" className="pl-2">Odwiedź nas na Facebook'u.</a>
+              <i className="fa fa-mobile fa-3x pl-5" />
+              <a href="https://eventory.cc/event/it-academic-day-politechniki-krakowskiej/mobile-app" className="pl-2">Pobierz aplikację mobilną Eventory</a>
             </Col>
             <Col md="6">
-              <i className="fa fa-mobile fa-3x" />
-              <a href="https://eventory.cc/event/it-academic-day-politechniki-krakowskiej/mobile-app">  Pobierz aplikację mobilną Eventory</a>
+            Kontakt: <br />
+            <div className="pl-3">
+              Marcin Miazga <br />
+              tel: +48 792 595 243 <br />
+              email: miazgamarcin@outlook.com
+            </div>
             </Col>
           </Row>
         </Container>

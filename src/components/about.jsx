@@ -28,7 +28,7 @@ class About extends Component {
                 <CarouselItem itemId="1">
                     <img
                       className="d-block img-fluid"
-                      src={require("../photos/itad_2017/horizontal/_MG_5279.jpg")}
+                      src={require("../photos/car1.jpg")}
                       alt="First slide"
                     />
                     <Mask overlay="black-light" />
@@ -36,7 +36,7 @@ class About extends Component {
                 <CarouselItem itemId="2">
                     <img
                       className="d-block img-fluid"
-                      src={require("../photos/itad_2017/horizontal/_MG_5279.jpg")}
+                      src={require("../photos/car2.jpg")}
                       alt="Second slide"
                     />
                 </CarouselItem>
@@ -44,7 +44,7 @@ class About extends Component {
                   <View>
                     <img
                       className="d-block img-fluid"
-                      src={require("../photos/itad_2017/horizontal/_MG_5279.jpg")}
+                      src={require("../photos/car3.jpg")}
                       alt="Third slide"
                     />
                   </View>
@@ -53,7 +53,16 @@ class About extends Component {
                   <View>
                     <img
                       className="d-block img-fluid"
-                      src={require("../photos/itad_2017/horizontal/_MG_5279.jpg")}
+                      src={require("../photos/car4.jpg")}
+                      alt="Mattonit's item"
+                    />
+                  </View>
+                </CarouselItem>                
+                <CarouselItem itemId="5">
+                  <View>
+                    <img
+                      className="d-block img-fluid"
+                      src={require("../photos/car5.jpg")}
                       alt="Mattonit's item"
                     />
                   </View>
