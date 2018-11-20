@@ -16,13 +16,13 @@ class About extends Component {
     return (
       <div id="about" className="justify-content-center">
         <div className="row">
-          <div className="col ml-5">
+          <div className="col m-3">
             <AboutCarousel />
           </div>
-          <div className="col mt-3">
+          <div className="col m-3">
             <AboutCards />
           </div>
-          <div className="col mr-5 mt-3">
+          <div className="col m-3">
             <AboutStatsCards ticketsLeft={200 - this.state.attendeesCount} />
           </div>
         </div>

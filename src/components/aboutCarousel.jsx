@@ -8,8 +8,7 @@ const AboutCarousel = () => {
       length={5}
       showControls={false}
       showIndicators={false}
-      className="mt-3"
-      style={{width: '800px', boxShadow: '0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.60)'}}
+      style={{width: '100%', boxShadow: '0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.60)'}}
     >
       <CarouselInner>
         <CarouselItem itemId="1">

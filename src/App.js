@@ -3,6 +3,7 @@ import "./App.css";
 import Menu from "./components/menu";
 import About from "./components/about";
 import Speakers from "./components/speakers";
+import ItadGallery from "./components/itadGallery";
 import Location from "./components/location";
 import MainLoader from "./components/mainLoader";
 
@@ -23,6 +24,7 @@ class App extends Component {
         <Menu />
         <About />
         <Speakers />
+        <ItadGallery />
         <Location />
       </div>
     );

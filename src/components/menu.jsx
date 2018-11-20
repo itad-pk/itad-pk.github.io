@@ -6,7 +6,6 @@ import {
   NavbarToggler,
   Collapse,
   NavItem,
-  NavLink,
   Container,
   Mask,
   View,
@@ -58,16 +57,16 @@ class Menu extends React.Component {
                       <AnchorLink className="nav-link" href='#about'>O KONFERENCJI</AnchorLink>
                     </NavItem>
                     <NavItem>
-                      <AnchorLink className="nav-link" href='#about'>AGENDA</AnchorLink>
-                    </NavItem>
-                    <NavItem>
                       <AnchorLink className="nav-link" href='#speakers'>PRELEGENCI</AnchorLink>
                     </NavItem>
                     <NavItem>
-                      <AnchorLink className="nav-link" href='#location'>LOKALIZACJA</AnchorLink>
+                      <AnchorLink className="nav-link" href='#about'>AGENDA</AnchorLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink to="#">ITAD 2017</NavLink>
+                    <AnchorLink className="nav-link" href='#itadGallery'>ITAD 2017</AnchorLink>
+                    </NavItem>
+                    <NavItem>
+                      <AnchorLink className="nav-link" href='#location'>LOKALIZACJA</AnchorLink>
                     </NavItem>
                   </NavbarNav>
                 </Collapse>
