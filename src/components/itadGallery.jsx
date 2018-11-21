@@ -30,7 +30,7 @@ class ItadGallery extends Component {
     });
 
     return (
-      <div style={{ marginTop: "5%" }} id="itadGallery">
+      <div className="mt-5 ml-4" id="itadGallery">
         <h1 className="text-center">ITAD 2017</h1>
         <div className="row justify-content-center">
           {imagesList}
