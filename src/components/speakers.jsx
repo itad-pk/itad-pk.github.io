@@ -12,12 +12,14 @@ class Speakers extends Component {
         <div className="m-3">
           <div className="row justify-content-center mb-3">
             <View zoom>
-              <img
-                alt="img"
-                width={200}
-                className="img-fluid mb-3"
-                src={require("../photos/krzysztof.jpg")}
-              />
+              <a href="https://www.linkedin.com/in/krzysztofseroka/" target="_blank">
+                <img
+                  alt="img"
+                  width={200}
+                  className="img-fluid mb-3"
+                  src={require("../photos/krzysztof.jpg")}
+                />
+              </a>
             </View>
             <div className="col-sm-6">
               <h4>Krzysztof Seroka</h4>
@@ -27,12 +29,14 @@ class Speakers extends Component {
           </div>
           <div className="row justify-content-center mb-3">
             <View zoom>
-              <img
-                alt="img"
-                width={200}
-                className="img-fluid mb-3"
-                src={require("../photos/blazej.png")}
-              />
+              <a href="https://www.linkedin.com/in/drobniuch/" target="_blank">
+                <img
+                  alt="img"
+                  width={200}
+                  className="img-fluid mb-3"
+                  src={require("../photos/blazej.png")}
+                />
+              </a>
             </View>
             <div className="col-sm-6">
               <h4>Błażej Drobniuch</h4>
@@ -42,32 +46,70 @@ class Speakers extends Component {
           </div>
           <div className="row justify-content-center mb-3">
             <View zoom>
-              <img
-                alt="img"
-                width={200}
-                className="img-fluid mb-3"
-                src="http://carerealtygroup.org/wp-content/uploads/2017/04/img-headshot-placeholder-male.jpg"
-              />
+              <a href="https://www.linkedin.com/in/paciadawid/" target="_blank">
+                <img
+                  alt="img"
+                  width={200}
+                  className="img-fluid mb-3"
+                  src={require("../photos/dawid.jpg")}
+                />
+              </a>
             </View>
             <div className="col-sm-6">
-              <h4>John Doe</h4>
-              <h5>Firma IT</h5>
-              <h6>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h6>
+              <h4>Dawid Pacia</h4>
+              <h5>Brainly</h5>
+              <h6>1/3 QA, 1/3 DevOps, 1/3 Lead. Last 10 years in Kraków. Tech freak following all the newest technologies (and implementing then on his own). Proudly and patriotically awarded as "People of Testing 2018". Leading and supporting the best and the happiest QA team! Actively speaking (and traveling) around the world (combining both passions). Organizer and originator of first regular Ukrainian QA meetup "UkrainQA".</h6>
             </div>
           </div>
           <div className="row justify-content-center mb-3">
             <View zoom>
-              <img
-                alt="img"
-                width={200}
-                className="img-fluid mb-3"
-                src="http://carerealtygroup.org/wp-content/uploads/2017/04/img-headshot-placeholder-male.jpg"
-              />
+              <a href="https://cezarypiatek.github.io/" target="_blank">
+                <img
+                  alt="img"
+                  width={200}
+                  className="img-fluid mb-3"
+                  src={require("../photos/cezary.jpg")}
+                />
+              </a>
             </View>
             <div className="col-sm-6">
-              <h4>John Doe</h4>
-              <h5>Firma IT</h5>
-              <h6>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h6>
+              <h4>Cezary Piątek</h4>
+              <h5>Ailleron</h5>
+              <h6>Pasjonat programowania, związany głównie z technologiami platformy .NET. Od kilku lat pracuje w krakowskim softwarehouse Ailleron, gdzie na co dzień zmaga się z tworzeniem aplikacji webowych z wykorzystaniem technologii ASP.NET i sporej dawki buzzwordów (CQRS/DDD/ES). Oprócz tematów architektonicznych chętnie podejmuje wyzwania w obszarach takich jak frontend, DevOps, bezpieczeństwo aplikacji oraz automatyzacja procesu wytwarzania oprogramowania.</h6>
+            </div>
+          </div>
+          <div className="row justify-content-center mb-3">
+            <View zoom>
+              <a href="https://www.linkedin.com/in/%C5%82ukasz-%C5%9Bwiszcz-03411b71/" target="_blank">
+                <img
+                  alt="img"
+                  width={200}
+                  className="img-fluid mb-3"
+                  src={require("../photos/lukasz.jpg")}
+                />
+              </a>
+            </View>
+            <div className="col-sm-6">
+              <h4>Łukasz Świszcz</h4>
+              <h5>WEBCON</h5>
+              <h6>Team leader w WEBCON, od ponad 6 lat programuje i projektuje aplikacje w JavaScript i C#. Wielki fan nowych technologii, uczenia maszynowego i testowalnego kodu. Na bieżąco śledzi nowości w językach JavaScript i C# oraz trendy w tworzeniu stron i aplikacji internetowych.</h6>
+            </div>
+          </div>
+          <div className="row justify-content-center mb-3">
+            <View zoom>
+              <a href="https://www.linkedin.com/in/grzegorz-ga%C5%82%C4%99zowski-2567266a/" target="_blank">
+                <img
+                  alt="img"
+                  width={200}
+                  className="img-fluid mb-3"
+                  src={require("../photos/grzegorz.jpeg")}
+                />
+              </a>
+            </View>
+            <div className="col-sm-6">
+              <h4>Grzegorz Gałęzowski</h4>
+              <h5>Motorola Solutions</h5>
+              <h6>Od dziesięciu lat pracuje w Motorola Solutions. Interesuje go wszystko, co pomaga w wytwarzaniu utrzymywalnego oprogramowania wysokiej jakości, szczególnie projektowanie obiektowe, ale również testowanie i komunikacja. Prelegent na polskich i zagranicznych konferencjach IT, autor darmowej książki on-line o tematyce Test-Driven Development pt. Test-Driven Development: Extensive Tutorial.</h6>
             </div>
           </div>
         </div>
