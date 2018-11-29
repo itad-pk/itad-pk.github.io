@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.1b0d143a.chunk.css",
-  "main.js": "/static/js/main.b1f22fe8.chunk.js",
-  "main.js.map": "/static/js/main.b1f22fe8.chunk.js.map",
+  "main.css": "/static/css/main.4bd9ca8d.chunk.css",
+  "main.js": "/static/js/main.bc2e5f63.chunk.js",
+  "main.js.map": "/static/js/main.bc2e5f63.chunk.js.map",
   "static/css/1.8ef0e09d.chunk.css": "/static/css/1.8ef0e09d.chunk.css",
   "static/js/1.686c8f07.chunk.js": "/static/js/1.686c8f07.chunk.js",
   "static/js/1.686c8f07.chunk.js.map": "/static/js/1.686c8f07.chunk.js.map",
@@ -31,9 +31,9 @@
   "static/media/kotlownia.JPG": "/static/media/kotlownia.df5a377b.JPG",
   "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/background.jpg": "/static/media/background.6e61f374.jpg",
+  "static/css/main.4bd9ca8d.chunk.css.map": "/static/css/main.4bd9ca8d.chunk.css.map",
   "static/css/1.8ef0e09d.chunk.css.map": "/static/css/1.8ef0e09d.chunk.css.map",
-  "static/css/main.1b0d143a.chunk.css.map": "/static/css/main.1b0d143a.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.c190aefeea4a75c70904562865c45702.js": "/precache-manifest.c190aefeea4a75c70904562865c45702.js",
+  "precache-manifest.b955ca0fd252a4a460ce7b3b2e86edce.js": "/precache-manifest.b955ca0fd252a4a460ce7b3b2e86edce.js",
   "service-worker.js": "/service-worker.js"
 }
