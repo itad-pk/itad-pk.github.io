@@ -15,7 +15,7 @@ const AboutCards = () => {
           O KONFERENCJI
         </CardTitle>
         <CardText style={{ color: "white" }}>
-          Dzień IT Politechniki Krakowskiej to już kolejna, dziewiąta edycja
+          Dzień IT Politechniki Krakowskiej to już kolejna, dziesiąta edycja
           konferencji o szeroko pojętej tematyce technologicznej. Podczas
           konferencji zaproszeni prelegenci przedstawią najnowsze trendy w
           branży IT. Ponadto zainteresowani studenci będą mogli poznać profile
