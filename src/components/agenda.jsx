@@ -9,9 +9,7 @@ class Agenda extends Component {
     return (
       <div className="mt-5 mb-5">
         <h1 className="text-center">AGENDA</h1>
-        <div className="row">
-          <div className="col-3"></div>
-          <div className="col-9">
+          <div className="col-6 offset-3">
             <Steps direction="vertical" current="1">
               <Step title="8:30 - Rejestracja" status="process" />
               <Step title="9:00 - Rozpoczęcie" status="process" />
@@ -26,7 +24,6 @@ class Agenda extends Component {
               <Step title="15:00 - Metoda Test-Driven Development w C# w rozwiązaniu zadania Fizz Buzz (pokaz na żywo)" status="process" description="Grzegorz Gałęzowski" />
               <Step title="16:00 - Zakończenie" status="process" />
             </Steps>
-          </div>
         </div>
       </div>
     );
