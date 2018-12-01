@@ -5,6 +5,7 @@ import About from "./components/about";
 import Speakers from "./components/speakers";
 import ItadGallery from "./components/itadGallery";
 import Location from "./components/location";
+import Agenda from "./components/agenda";
 import MainLoader from "./components/mainLoader";
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
         <Menu />
         <About />
         <Speakers />
+        <Agenda />
         <ItadGallery />
         <Location />
       </div>
