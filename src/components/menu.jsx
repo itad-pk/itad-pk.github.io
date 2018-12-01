@@ -91,7 +91,7 @@ class Menu extends React.Component {
                   UL. WARSZAWSKA 24 KRAKÓW
                   <br />
                   <br />
-                  Rejestracja od godziny 8:30
+                  REJESTRACJA OD GODZINY 8:30
                 </h1>
                 <Animation className="mt-4" type="pulse slow" infinite>
                   <Button href="https://eventory.cc/event/it-academic-day-politechniki-krakowskiej" size="lg" color="warning">
