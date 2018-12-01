@@ -7,7 +7,7 @@ class Agenda extends Component {
   state = {  }
   render() {
     return (
-      <div className="mt-5 mb-5">
+      <div className="mt-5 mb-5" id="agenda">
         <h1 className="text-center">AGENDA</h1>
           <div className="col-6 offset-3">
             <Steps direction="vertical" current="1">

@@ -60,7 +60,7 @@ class Menu extends React.Component {
                       <AnchorLink className="nav-link" href='#speakers'>PRELEGENCI</AnchorLink>
                     </NavItem>
                     <NavItem>
-                      <AnchorLink className="nav-link" href='#about'>AGENDA</AnchorLink>
+                      <AnchorLink className="nav-link" href='#agenda'>AGENDA</AnchorLink>
                     </NavItem>
                     <NavItem>
                     <AnchorLink className="nav-link" href='#itadGallery'>ITAD 2017</AnchorLink>
