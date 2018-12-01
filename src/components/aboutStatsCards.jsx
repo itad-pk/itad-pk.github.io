@@ -10,9 +10,9 @@ class AboutStatsCards extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="row">
         <Card
-          className="p-3 text-center"
+          className="p-3 text-center col-6"
           style={{
             backgroundColor: "#1C2331",
             boxShadow: "0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.60)"
@@ -29,7 +29,7 @@ class AboutStatsCards extends Component {
           </CardTitle>
         </Card>
         <Card
-          className="p-3 mt-3 text-center"
+          className="p-3 text-center col-6"
           style={{
             backgroundColor: "#1C2331",
             boxShadow: "0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.60)"

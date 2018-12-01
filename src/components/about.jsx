@@ -22,10 +22,10 @@ class About extends Component {
           <div className="col m-3">
             <AboutCards />
           </div>
+        </div>
           <div className="col m-3">
             <AboutStatsCards ticketsLeft={200 - this.state.attendeesCount} />
           </div>
-        </div>
       </div>
     );
   }

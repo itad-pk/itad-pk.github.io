@@ -112,6 +112,40 @@ class Speakers extends Component {
               <h6>Od dziesięciu lat pracuje w Motorola Solutions. Interesuje go wszystko, co pomaga w wytwarzaniu utrzymywalnego oprogramowania wysokiej jakości, szczególnie projektowanie obiektowe, ale również testowanie i komunikacja. Prelegent na polskich i zagranicznych konferencjach IT, autor darmowej książki on-line o tematyce Test-Driven Development pt. Test-Driven Development: Extensive Tutorial.</h6>
             </div>
           </div>
+          <div className="row justify-content-center mb-3">
+            <View zoom>
+              <a href="https://www.linkedin.com/in/micha%C5%82-osadnik-%F0%9F%99%86-01a651138/" target="_blank">
+                <img
+                  alt="img"
+                  width={200}
+                  className="img-fluid mb-3"
+                  src={require("../photos/michal.jpg")}
+                />
+              </a>
+            </View>
+            <div className="col-sm-6">
+              <h4>Michał Osadnik</h4>
+              <h5>Software Mansion</h5>
+              <h6>Niepoprawny fan aplikacji mobilnych, Reacta Native, produktów firmy Apple i dobrego dizajnu. Programista w Software Mansion oraz student informatyki. Oprócz tego zapalony czytelnik niepopularnej literatury i miłośnik muzyki najstarszej.</h6>
+            </div>
+          </div>
+          <div className="row justify-content-center mb-3">
+            <View zoom>
+              <a href="https://www.linkedin.com/in/bartosz-b%C5%82aszk%C3%B3w-1837a8136/" target="_blank">
+                <img
+                  alt="img"
+                  width={200}
+                  className="img-fluid mb-3"
+                  src={require("../photos/bartek.jpg")}
+                />
+              </a>
+            </View>
+            <div className="col-sm-6">
+              <h4>Bartosz Błaszków</h4>
+              <h5>Software Mansion</h5>
+              <h6>Software Engineer w Software Mansion. Programuje w językach Elixir i C. Członek zespołu rozwijającego framework multimedialny Membrane.</h6>
+            </div>
+          </div>
         </div>
       </div>
     );
