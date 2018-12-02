@@ -23,7 +23,7 @@ class About extends Component {
             <AboutCards />
           </div>
         </div>
-          <div className="col m-3">
+          <div className="col">
             <AboutStatsCards ticketsLeft={200 - this.state.attendeesCount} />
           </div>
       </div>

@@ -10,7 +10,7 @@ class AboutStatsCards extends Component {
   }
   render() {
     return (
-      <div className="row">
+      <div className="row ml-0 mr-0 mt-3">
         <Card
           className="p-3 text-center col-6"
           style={{
