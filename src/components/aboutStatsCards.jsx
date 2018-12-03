@@ -39,7 +39,7 @@ class AboutStatsCards extends Component {
             Zostało
           </CardTitle>
           <CardText className="fa-5x" style={{ color: "white" }}>
-            {this.props.ticketsLeft}
+            { this.props.ticketsLeft > 0 ? this.props.ticketsLeft : 0}
           </CardText>
           <CardTitle style={{ color: "white" }}>
             <i className="fa fa-2x fa-ticket"></i> biletów
