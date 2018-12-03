@@ -22,7 +22,7 @@ class AboutStatsCards extends Component {
             Rozpoczynamy za
           </CardTitle>
           <CardText className="fa-5x" style={{ color: "white" }}>
-            <Countdown daysInHours={true} date={new Date("2018-12-4 9:15")} />
+            <Countdown daysInHours={true} date={new Date("2018-12-4 8:30")} />
           </CardText>
           <CardTitle style={{ color: "white" }}>
             godziny
