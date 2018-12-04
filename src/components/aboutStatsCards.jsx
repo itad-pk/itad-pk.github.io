@@ -19,13 +19,7 @@ class AboutStatsCards extends Component {
           }}
         >
           <CardTitle style={{ color: "white" }}>
-            Rozpoczynamy za
-          </CardTitle>
-          <CardText className="fa-5x" style={{ color: "white" }}>
-            <Countdown daysInHours={true} date={new Date("2018-12-4 8:30")} />
-          </CardText>
-          <CardTitle style={{ color: "white" }}>
-            godziny
+             Konferencja już trwa :)
           </CardTitle>
         </Card>
         <Card
