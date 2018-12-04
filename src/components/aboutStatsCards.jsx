@@ -33,13 +33,12 @@ class AboutStatsCards extends Component {
           }}
         >
           <CardTitle style={{ color: "white" }}>
-            Zostało
+            Konkurs IG & FB
           </CardTitle>
           <CardText className="fa-5x" style={{ color: "white" }}>
-            { this.props.ticketsLeft > 0 ? this.props.ticketsLeft : 0}
+            #ITADPK2018
           </CardText>
           <CardTitle style={{ color: "white" }}>
-            <i className="fa fa-2x fa-ticket"></i> biletów
           </CardTitle>
         </Card>
       </div>
