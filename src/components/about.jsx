@@ -1,39 +1,37 @@
-import React, { Component } from "react";
-import AboutCarousel from './aboutCarousel.jsx';
-import AboutCards from './aboutCards.jsx';
-import AboutStatsCards from './aboutStatsCards.jsx';
-import axios from 'axios';
+import React from 'react';
+import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
 
-class About extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      attendeesCount: 0
-    };
-  }
-
-  render() {
-    return (
-      <div id="about" className="justify-content-center">
-        <div className="row">
-          <div className="col m-3">
-            <AboutCarousel />
-          </div>
-          <div className="col m-3">
-            <AboutCards />
-          </div>
-        </div>
-          <div className="col">
-            <AboutStatsCards ticketsLeft={200 - this.state.attendeesCount} />
-          </div>
-      </div>
-    );
-  }
-
-  componentDidMount() {
-    axios.get('https://eventory.cc/api/v1/events/it-academic-day-politechniki-krakowskiej')
-      .then(resp => this.setState({attendeesCount: resp.data.attendees_count}));
-  }
+export default class About extends React.Component {
+    render() {
+        return (
+            <section className="about" id="o-konferencji">
+                <MDBContainer>
+                    <h2>O KONFERENCJI</h2>
+                    <p>Dzień IT Politechniki Krakowskiej to już kolejna, jedenasta edycja konferencji o szeroko pojętej tematyce technologicznej. 
+                        Podczas konferencji zaproszeni prelegenci przedstawią najnowsze trendy w branży IT. Ponadto zainteresowani studenci 
+                        będą mogli poznać profile potencjalnych pracodawców, a także wziąć udział w konkursach z atrakcyjnymi nagrodami.
+                    </p>
+                    <p>Dzień IT Politechniki Krakowskiej ukierunkowany jest na studentów kierunków informatycznych i skupia się na tematyce 
+                        technologii i programowania. Jako cel Grupa .NET Politechniki Krakowskiej stawia sobie przekazanie wartościowej i 
+                        praktycznej wiedzy z branży IT. Konferencja jest także szansą nawiązania relacji z firmami z branży technologicznej.
+                    </p>
+                    <p>Konferencja rusza 22. stycznia 2020 roku o godzinie 8:30. Spotykamy się w sali konferencyjno-wystawowej "Kotłownia" ul. Warszawska 24, Kraków</p>
+                        <MDBRow>
+                            <MDBCol md="4" sm="12" className="icon-wrapper">
+                                <i className="icon icon-calendar"></i>
+                                <span>22. stycznia 2020</span>
+                            </MDBCol>
+                                <MDBCol md="4" sm="12" className="icon-wrapper">
+                                <i className="icon icon-clock"></i>
+                                <span>8:30</span>
+                            </MDBCol>        
+                            <MDBCol md="4" sm="12" className="icon-wrapper">
+                            <i className="icon icon-location"></i>
+                                <span>Sala konferencyjno-wystawowa "Kotłownia" <br/>ul. Warszawska 24 Kraków</span>
+                            </MDBCol>
+                        </MDBRow>
+                </MDBContainer>
+            </section>
+        );
+    }
 }
-
-export default About;

@@ -1,43 +1,48 @@
 import React, { Component } from "react";
-import "./App.css";
+import "./App.scss";
+// import Menu from "./components/menu";
+// import Hero from "./components/hero";
+// import About from "./components/about";
+// import Speakers from "./components/speakers";
+// import ItadGallery from "./components/itadGallery";
+// import Location from "./components/location";
+// import Agenda from "./components/agenda";
 import Menu from "./components/menu";
+import Hero from "./components/hero";
 import About from "./components/about";
+import Timer from "./components/timer";
 import Speakers from "./components/speakers";
-import ItadGallery from "./components/itadGallery";
-import Location from "./components/location";
 import Agenda from "./components/agenda";
-import MainLoader from "./components/mainLoader";
+import Itad from "./components/itad";
+import Location from "./components/location";
+import Footer from "./components/footer";
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      isLoading: false
-    }
   }
 
   render() {
-    if(this.state.isLoading)
-      return <MainLoader />;
-
     return (
       <div>
-        <Menu />
+        <Menu/>
+        <Hero/>
+        <Timer/>
+        <About/>
+        <Speakers/>
+        <Agenda/>
+        <Itad/>
+        <Location/>
+        <Footer/>
+        {/* <Menu />
         <About />
         <Speakers />
         <Agenda />
         <ItadGallery />
-        <Location />
+        <Location /> */}
       </div>
     );
   }
-
-  componentDidMount() {
-    setTimeout(() => {
-      this.setState({isLoading: false});
-    }, 2000);
-  }
-
 }
 
 export default App;
