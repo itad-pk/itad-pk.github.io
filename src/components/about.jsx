@@ -15,7 +15,7 @@ export default class About extends React.Component {
                         technologii i programowania. Jako cel Grupa .NET Politechniki Krakowskiej stawia sobie przekazanie wartościowej i 
                         praktycznej wiedzy z branży IT. Konferencja jest także szansą nawiązania relacji z firmami z branży technologicznej.
                     </p>
-                    <p>Konferencja rusza 22. stycznia 2020 roku o godzinie 8:30. Spotykamy się w sali konferencyjno-wystawowej "Kotłownia" ul. Warszawska 24, Kraków</p>
+                    <p>Konferencja rusza 22. stycznia 2020 roku o godzinie 9:00. Spotykamy się w sali konferencyjno-wystawowej "Kotłownia" ul. Warszawska 24, Kraków</p>
                         <MDBRow>
                             <MDBCol md="4" sm="12" className="icon-wrapper">
                                 <i className="icon icon-calendar"></i>
@@ -23,7 +23,7 @@ export default class About extends React.Component {
                             </MDBCol>
                                 <MDBCol md="4" sm="12" className="icon-wrapper">
                                 <i className="icon icon-clock"></i>
-                                <span>8:30</span>
+                                <span>9:00</span>
                             </MDBCol>        
                             <MDBCol md="4" sm="12" className="icon-wrapper">
                             <i className="icon icon-location"></i>

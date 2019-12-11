@@ -44,7 +44,7 @@ export default class Timer extends React.Component {
     }
 
     startTimer = () => {
-        let countDownDate = new Date("Jan 22, 2020 8:30:00").getTime();
+        let countDownDate = new Date("Jan 22, 2020 9:00:00").getTime();
         let timer = setInterval(() => {
             let currentDate = new Date().getTime();
             let distance = countDownDate - currentDate;
