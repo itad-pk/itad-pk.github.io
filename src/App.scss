@@ -23,10 +23,15 @@
 @media (max-width: 768px) {
     .navbar {
         background-color: #161C27;
-        padding: 15px !important;
+        padding: 10px !important;
 
         &.top-nav-collapse {
-            padding: 15px !important;
+            padding: 10px !important;
+        }
+
+        img {
+            max-height: 50px;
+            width: auto;
         }
     }
 }

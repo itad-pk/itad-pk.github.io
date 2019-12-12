@@ -32,9 +32,9 @@ export default class Menu extends React.Component {
                 <Router>
                     <MDBContainer>
                         <MDBNavbar transparent dark expand="md" scrolling fixed="top">
-                            <MDBNavbarBrand href="/">
-                                <img alt="img" width={70} src={require("../logo.png")} />
-                            </MDBNavbarBrand>
+                            <AnchorLink className="nav-link" href="#home">
+                                    <img alt="img" width={70} src={require("../logo.png")} />
+                            </AnchorLink>
                             <MDBNavbarToggler onClick={ this.onClick } />
                             <MDBCollapse isOpen = { this.state.collapse } navbar>
                             <NavbarNav right>
