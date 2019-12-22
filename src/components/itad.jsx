@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBContainer, View } from 'mdbreact';
+import { View } from 'mdbreact';
 
 export default class Itad extends React.Component {
     constructor(props) {

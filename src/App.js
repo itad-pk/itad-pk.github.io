@@ -13,15 +13,12 @@ import About from "./components/about";
 import Timer from "./components/timer";
 import Speakers from "./components/speakers";
 import Agenda from "./components/agenda";
+import Partners from "./components/partners";
 import Itad from "./components/itad";
 import Location from "./components/location";
 import Footer from "./components/footer";
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div>
@@ -31,6 +28,7 @@ class App extends Component {
         <About/>
         <Speakers/>
         <Agenda/>
+        <Partners/>
         <Itad/>
         <Location/>
         <Footer/>

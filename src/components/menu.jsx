@@ -2,7 +2,6 @@ import React from 'react';
 import { 
     MDBContainer, 
     MDBNavbar,
-    MDBNavbarBrand,
     MDBNavbarToggler,
     NavItem,
     MDBCollapse,
@@ -46,6 +45,9 @@ export default class Menu extends React.Component {
                                 </NavItem>
                                 <NavItem>
                                     <AnchorLink className="nav-link" href='#agenda'>Agenda</AnchorLink>
+                                </NavItem>
+                                <NavItem>
+                                    <AnchorLink className="nav-link" href='#partnerzy'>Partnerzy</AnchorLink>
                                 </NavItem>
                                 <NavItem>
                                     <AnchorLink className="nav-link" href='#itad-2018'>ITAD 2018</AnchorLink>
