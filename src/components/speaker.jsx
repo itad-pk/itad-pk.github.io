@@ -13,7 +13,7 @@ export default class Speaker extends Component {
 
     render() {
         return (
-            <MDBCol size="3">
+            <MDBCol md="3" sm="12">
                 <div className="speaker">
                     <img src={require(`../photos/${this.state.img}`)} />
                     <div className="title">

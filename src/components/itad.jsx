@@ -37,8 +37,8 @@ export default class Itad extends React.Component {
         });
 
         return (
-            <section className="itad" id="itad-2018">
-                <h2>ITAD 2018</h2>
+            <section className="itad" id="itad-2019">
+                <h2>ITAD 2019</h2>
                 {imagesList}
             </section>
         )

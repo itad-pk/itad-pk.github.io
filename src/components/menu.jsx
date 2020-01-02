@@ -50,7 +50,7 @@ export default class Menu extends React.Component {
                                     <AnchorLink className="nav-link" href='#partnerzy'>Partnerzy</AnchorLink>
                                 </NavItem>
                                 <NavItem>
-                                    <AnchorLink className="nav-link" href='#itad-2018'>ITAD 2018</AnchorLink>
+                                    <AnchorLink className="nav-link" href='#itad-2019'>ITAD 2019</AnchorLink>
                                 </NavItem>
                                 <NavItem>
                                     <AnchorLink className="nav-link" href='#lokalizacja'>Lokalizacja</AnchorLink>
