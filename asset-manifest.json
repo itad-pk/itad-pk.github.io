@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.7f5af8ec.chunk.css",
-  "main.js": "/static/js/main.cad2c092.chunk.js",
-  "main.js.map": "/static/js/main.cad2c092.chunk.js.map",
+  "main.css": "/static/css/main.de927218.chunk.css",
+  "main.js": "/static/js/main.b7ea30e7.chunk.js",
+  "main.js.map": "/static/js/main.b7ea30e7.chunk.js.map",
   "static/css/1.8e5c61a9.chunk.css": "/static/css/1.8e5c61a9.chunk.css",
   "static/js/1.fe63ed11.chunk.js": "/static/js/1.fe63ed11.chunk.js",
   "static/js/1.fe63ed11.chunk.js.map": "/static/js/1.fe63ed11.chunk.js.map",
@@ -27,13 +27,13 @@
   "static/media/strix.png": "/static/media/strix.0d5d0fc5.png",
   "static/media/webcon.jpg": "/static/media/webcon.4b0f8dcd.jpg",
   "static/media/logo.png": "/static/media/logo.c06d0283.png",
-  "static/media/Paweł_Mstowski.jpg": "/static/media/Paweł_Mstowski.1809dcb5.jpg",
-  "static/media/mstowski.png": "/static/media/mstowski.5eaf32e8.png",
+  "static/media/Dominik_Pawlik.jpg": "/static/media/Dominik_Pawlik.1794b886.jpg",
+  "static/media/Paweł_Mstowski.jpg": "/static/media/Paweł_Mstowski.e8119b8a.jpg",
   "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/1.JPG": "/static/media/1.9fe688d9.JPG",
-  "static/css/main.7f5af8ec.chunk.css.map": "/static/css/main.7f5af8ec.chunk.css.map",
+  "static/css/main.de927218.chunk.css.map": "/static/css/main.de927218.chunk.css.map",
   "static/css/1.8e5c61a9.chunk.css.map": "/static/css/1.8e5c61a9.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.b9d2ad32994acf464a52d1e1acfb9b96.js": "/precache-manifest.b9d2ad32994acf464a52d1e1acfb9b96.js",
+  "precache-manifest.afdbe687e2887d34c694af4bd7f832fd.js": "/precache-manifest.afdbe687e2887d34c694af4bd7f832fd.js",
   "service-worker.js": "/service-worker.js"
 }
