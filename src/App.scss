@@ -88,8 +88,8 @@ section.timer {
 section.about {
     padding: 100px 0px;
     background-color: #33B5E5;
-    // background-color: #005ea6;
     color: #fff;
+    text-align: center;
 
     h2 {
         margin-bottom: 25px;
@@ -145,7 +145,7 @@ section.speakers {
         color: #fff;
         height: 65px;
         text-align: center;
-        background-color: rgba(#33B5E5, 0.8);
+        background-color: rgba(#33B5E5, 0.9);
         transition: all .3s ease-in-out;
         display: flex;
         flex-flow: column nowrap;
