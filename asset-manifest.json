@@ -1,7 +1,7 @@
 {
-  "main.css": "/static/css/main.0e07ca05.chunk.css",
-  "main.js": "/static/js/main.61b5e6c7.chunk.js",
-  "main.js.map": "/static/js/main.61b5e6c7.chunk.js.map",
+  "main.css": "/static/css/main.0541ea53.chunk.css",
+  "main.js": "/static/js/main.f817c004.chunk.js",
+  "main.js.map": "/static/js/main.f817c004.chunk.js.map",
   "static/css/1.96312101.chunk.css": "/static/css/1.96312101.chunk.css",
   "static/js/1.0dbc10a5.chunk.js": "/static/js/1.0dbc10a5.chunk.js",
   "static/js/1.0dbc10a5.chunk.js.map": "/static/js/1.0dbc10a5.chunk.js.map",
@@ -24,7 +24,7 @@
   "static/media/ailleron.jpg": "/static/media/ailleron.bcd3f6ac.jpg",
   "static/media/kotlownia.JPG": "/static/media/kotlownia.df5a377b.JPG",
   "static/media/novomatic.png": "/static/media/novomatic.211ef661.png",
-  "static/media/strix.png": "/static/media/strix.0d5d0fc5.png",
+  "static/media/strix.jpg": "/static/media/strix.c904e56c.jpg",
   "static/media/webcon.jpg": "/static/media/webcon.4b0f8dcd.jpg",
   "static/media/logo.png": "/static/media/logo.c06d0283.png",
   "static/media/Dominik_Pawlik.jpg": "/static/media/Dominik_Pawlik.1794b886.jpg",
@@ -32,9 +32,9 @@
   "static/media/Paweł_Mstowski.jpg": "/static/media/Paweł_Mstowski.e8119b8a.jpg",
   "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.912ec66d.svg",
   "static/media/1.JPG": "/static/media/1.9fe688d9.JPG",
+  "static/css/main.0541ea53.chunk.css.map": "/static/css/main.0541ea53.chunk.css.map",
   "static/css/1.96312101.chunk.css.map": "/static/css/1.96312101.chunk.css.map",
-  "static/css/main.0e07ca05.chunk.css.map": "/static/css/main.0e07ca05.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.f7b81460d5f44d4739f034ac881d4dad.js": "/precache-manifest.f7b81460d5f44d4739f034ac881d4dad.js",
+  "precache-manifest.fb073170a1d20ada1578769e5a95df85.js": "/precache-manifest.fb073170a1d20ada1578769e5a95df85.js",
   "service-worker.js": "/service-worker.js"
 }
