@@ -23,7 +23,7 @@ export default class Partners extends React.Component {
                             <img src={require("../photos/ailleron.jpg")}/>
                         </MDBCol>
                         <MDBCol size="4">
-                            <img src={require("../photos/strix.png")}/>
+                            <img src={require("../photos/strix.jpg")}/>
                         </MDBCol>
                         <MDBCol size="4">
                             <img src={require("../photos/motorola.png")}/>
