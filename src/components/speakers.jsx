@@ -18,7 +18,7 @@ export default class Speakers extends React.Component {
                         <Speaker name="Jakub Bobek" img="Jakub_Bobek.png" desc="Kuba to programista działający głównie z .NET. Pracuje w firmie NOVOMATIC Technologies Poland, gdzie rozwija i utrzymuje rozproszony system wspierający branżę gamingową."/>
                         <Speaker name="Konrad Bielawski" img="Konrad_Bielawski.png" desc="Software Engineer w firmie NOVOMATIC Technologies Poland. W swojej prelekcji opowie o tym jak kultura DevOps może pomóc z prywatnym projektem."/>
                         <Speaker name="Andrzej Kubik" img="Andrzej_Kubik.png" desc="Andrzej pracuje jako Product Manager w firmie Motorola Solutions. Podczas swojej prelekcji opowie o  bezpieczeństwo danych w chmurze z perspektywy klienta."/>
-                        <Speaker name="Błażej Drobniuh" img="Blazej_Drobniuh.png" desc="Błażej to Agile Coach pracujący w firmie Strix. Podczas spotkania pomoże znaleźć odpowiedzi na następujące pytania: Co odróżnia pewne organizacje od innych? Jaki wpływ na Twoją karierę i życie mogą mieć te różnice? Jak podczas rekrutacji rozpoznać, czy dana organizacja jest odpowiednia dla Ciebie?"/>
+                        <Speaker name="Błażej Drobniuch" img="Blazej_Drobniuch.png" desc="Błażej to Agile Coach pracujący w firmie Strix. Podczas spotkania pomoże znaleźć odpowiedzi na następujące pytania: Co odróżnia pewne organizacje od innych? Jaki wpływ na Twoją karierę i życie mogą mieć te różnice? Jak podczas rekrutacji rozpoznać, czy dana organizacja jest odpowiednia dla Ciebie?"/>
                     </MDBRow>
                 </MDBContainer>
             </section>
