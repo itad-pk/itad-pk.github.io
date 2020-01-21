@@ -57,7 +57,7 @@
                     margin-top: 5px;
                     display: block !important;
                 }
-    
+
                 span {
                     display: block !important;
                     width: 100% !important;
@@ -81,6 +81,12 @@ section.timer {
     h2 {
         text-transform: uppercase;
         text-align: center;
+    }
+
+    h3 {
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 50px;
     }
 
     .content {
@@ -150,7 +156,8 @@ section.speakers {
         font-style: italic;
     }
 
-    .col-md-3, .col-sm-3 {
+    .col-md-3,
+    .col-sm-3 {
         padding: 15px;
     }
 }

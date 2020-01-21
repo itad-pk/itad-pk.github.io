@@ -9,35 +9,45 @@ export default class Timer extends React.Component {
             days: 0,
             hours: 0,
             minutes: 0,
-            seconds: 0
+            seconds: 0,
+            finished: false
         };
 
         this.startTimer();
     }
 
     render() {
+        let content;
+        if(this.state.finished === false) {
+            content = (<div className="content">
+            <div className="counter">
+                <span>{ this.state.days }</span>
+                <span>dni</span>
+            </div>
+            <div className="counter">
+                <span>{ this.state.hours }</span>
+                <span>godzin</span>
+            </div>
+            <div className="counter">
+                <span>{ this.state.minutes }</span>
+                <span>minut</span>
+            </div>
+            <div className="counter">
+                <span>{ this.state.seconds }</span>
+                <span>sekund</span>
+            </div>
+            </div>);
+        } else {
+            content = (
+                <div className="content">
+                    <h3>Konferencja już się zaczęła</h3>
+                </div>);
+        }
         return (
             <section className="timer">
                 <MDBContainer>
                     <h2>Do konferencji pozostało</h2>
-                    <div className="content">
-                        <div className="counter">
-                            <span>{ this.state.days }</span>
-                            <span>dni</span>
-                        </div>
-                        <div className="counter">
-                            <span>{ this.state.hours }</span>
-                            <span>godzin</span>
-                        </div>
-                        <div className="counter">
-                            <span>{ this.state.minutes }</span>
-                            <span>minut</span>
-                        </div>
-                        <div className="counter">
-                            <span>{ this.state.seconds }</span>
-                            <span>sekund</span>
-                        </div>
-                    </div>
+                        {content}
                 </MDBContainer>
             </section>
         );
@@ -61,6 +71,9 @@ export default class Timer extends React.Component {
             // If the count down is finished, write some text
             if (distance < 0) {
                 clearInterval(timer);
+                this.setState({
+                    finished: true
+                });
             }
         }, 100);
     }
